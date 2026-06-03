@@ -1,0 +1,17 @@
+# mlflow-als-serving — dependências
+# Ambiente: Databricks Free Edition (Serverless Compute)
+# Nota: PySpark e MLflow já vêm pré-instalados no Databricks.
+#       Este arquivo serve como referência de versões utilizadas.
+
+# ML & Tracking
+mlflow>=2.13.0
+
+# Data
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Requests (para chamadas REST ao Model Serving)
+requests>=2.31.0
+
+# Visualizações (disponíveis no Databricks por padrão)
+matplotlib>=3.7.0
